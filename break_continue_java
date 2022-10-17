@@ -1,0 +1,19 @@
+public class break_and_continue {
+    public static void main(String[] args){
+        //Break and Continue using Loops!!
+//      for(int i=0;i<5;i++){
+//            System.out.println(i);
+//            System.out.println("Java is easy so far");
+//            if(i==2){
+//            System.out.println("Ending the Loop");
+//                break;
+//            }
+        for(int i=0;i<5;i++){
+            if(i==2){
+                continue;
+            }
+            System.out.println(i);
+           System.out.println("Java is easy so far");
+        }
+    }
+}
